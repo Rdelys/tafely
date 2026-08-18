@@ -6,6 +6,41 @@ class HomeController extends Controller
 {
     public function index()
     {
+        // 👉 Projets déjà réalisés par Tafely.GR
+        $projets = [
+            [
+                'nom' => 'Courtage Solaire',
+                'categorie' => 'Site vitrine',
+                'description' => 'Site vitrine pour une entreprise spécialisée dans les solutions photovoltaïques, pensé pour présenter clairement ses offres et générer des demandes de devis.',
+                'image' => 'projets/courtage-solaire.png',
+                'lien' => 'https://courtage-solaire.com/',
+            ],
+            [
+                'nom' => 'IA DIAL',
+                'categorie' => 'Plateforme IA',
+                'description' => 'Plateforme proposant des agents IA sur mesure pour automatiser les échanges et les tâches des entreprises.',
+                'image' => 'projets/ia-dial.png',
+                'lien' => 'https://ia-dial.com/',
+            ],
+            [
+                'nom' => 'FDK - Fast Data Keys',
+                'categorie' => 'Site Vitrine',
+                'description' => 'Site vitrine pour une entreprise spécialisée dans le service informatique, pensé pour présenter clairement ses offres et générer des demandes de devis.',
+                'image' => 'projets/fdk.png',
+                'lien' => 'https://fdk-fastdatakeys.com/',
+            ],
+
+            // 👉 Pour ajouter un futur projet, copier ce bloc :
+            // [
+            //     'nom' => 'Nom du projet',
+            //     'categorie' => 'Catégorie',
+            //     'description' => 'Description courte...',
+            //     'image' => 'projets/mon-projet.png',
+            //     'lien' => 'https://mon-projet.com',
+            // ],
+        ];
+
+        // 👉 Produits Tafely.GR
         $produits = [
             [
                 'nom' => 'Tafely Boutiq',
@@ -39,6 +74,6 @@ class HomeController extends Controller
             ],
         ];
 
-        return view('home', compact('produits'));
+        return view('home', compact('projets', 'produits'));
     }
 }

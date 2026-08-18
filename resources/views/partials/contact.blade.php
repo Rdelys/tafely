@@ -1,10 +1,12 @@
-<section id="contact" class="py-16 sm:py-24 gradient-bg relative overflow-hidden">
-    <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full animate-float"></div>
+<section id="contact" class="py-16 sm:py-24 ocean-bg relative overflow-hidden">
+    <div class="absolute top-0 right-0 text-white/10 text-9xl animate-float">
+        <i class="fa-solid fa-sailboat"></i>
+    </div>
 
     <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos="fade-up">
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-3">Une question ? Écrivez-nous</h2>
-            <p class="text-white/90">Notre équipe vous répond rapidement à <strong>contact@tafely-gr.com</strong></p>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-3">Prêt à lancer votre projet ?</h2>
+            <p class="text-white/90">Écrivez-nous à <strong>contact@tafely-gr.com</strong>, nous vous répondons rapidement.</p>
         </div>
 
         @if(session('success'))
@@ -39,7 +41,7 @@
             </div>
 
             <button type="submit"
-                    class="w-full flex items-center justify-center gap-2 bg-tafelyBlue text-white font-bold px-6 py-4 rounded-full hover:bg-blue-900 hover:scale-[1.02] transition transform">
+                    class="w-full flex items-center justify-center gap-2 bg-tafelyBlue text-white font-bold px-6 py-4 rounded-full hover:bg-tafelyDeep hover:scale-[1.02] transition transform">
                 <i class="fa-solid fa-paper-plane"></i> Envoyer le message
             </button>
         </form>
