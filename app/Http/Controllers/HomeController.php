@@ -20,7 +20,7 @@ class HomeController extends Controller
                 'categorie' => 'Plateforme IA',
                 'description' => 'Plateforme proposant des agents IA sur mesure pour automatiser les échanges et les tâches des entreprises.',
                 'image' => 'projets/ia-dial.png',
-                'lien' => 'https://ia-dial.com/',
+                'lien' => 'https://iadial.com//',
             ],
             [
                 'nom' => 'FDK - Fast Data Keys',
