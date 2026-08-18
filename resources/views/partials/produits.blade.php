@@ -5,9 +5,13 @@
 
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16" data-aos="fade-up">
-            <span class="text-tafelyRed font-semibold uppercase tracking-wide text-sm">Nos produits</span>
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">Deux outils prêts à embarquer</h2>
-            <p class="mt-3 text-gray-600 max-w-xl mx-auto">Ajoutez votre contenu, obtenez votre page unique à partager instantanément.</p>
+            <span class="kicker text-tafelyRed justify-center">Nos services</span>
+            <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mt-4 tracking-tight">
+                Une équipe qui vous mène <span class="text-tafelyBlue">à bon port</span>
+            </h2>
+            <p class="mt-4 text-gray-500 max-w-xl mx-auto text-lg">
+                De l'idée à la mise en ligne, nous concevons des solutions numériques fiables et modernes.
+            </p>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
@@ -21,7 +25,7 @@
                 @endphp
 
                 <div data-aos="fade-{{ $isBlue ? 'right' : 'left' }}"
-                     class="relative bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border-t-4 {{ $borderColor }} hover:-translate-y-2">
+                     class="group relative bg-white rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100 hover:border-tafelyBlue/30 hover:-translate-y-3">
 
                     <div class="bg-gradient-to-br {{ $bgGradient }} p-8 text-white text-center">
                         <div class="w-20 h-20 mx-auto bg-white/20 rounded-2xl flex items-center justify-center mb-4">
@@ -56,6 +60,7 @@
                             </div>
                         @endif
                     </div>
+                    <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-tafelyBlue via-tafelyElectric to-tafelyBlue scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
                 </div>
             @endforeach
         </div>

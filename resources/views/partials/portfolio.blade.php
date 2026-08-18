@@ -5,15 +5,19 @@
 
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16" data-aos="fade-up">
-            <span class="text-tafelyRed font-semibold uppercase tracking-wide text-sm">Nos réalisations</span>
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">Les projets déjà à quai</h2>
-            <p class="mt-3 text-gray-600 max-w-xl mx-auto">Quelques-unes des solutions que nous avons conçues et lancées.</p>
+            <span class="kicker text-tafelyRed justify-center">Nos services</span>
+            <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mt-4 tracking-tight">
+                Une équipe qui vous mène <span class="text-tafelyBlue">à bon port</span>
+            </h2>
+            <p class="mt-4 text-gray-500 max-w-xl mx-auto text-lg">
+                De l'idée à la mise en ligne, nous concevons des solutions numériques fiables et modernes.
+            </p>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             @forelse($projets as $index => $projet)
                 <div data-aos="fade-up" data-aos-delay="{{ $index * 100 }}"
-                     class="group bg-white rounded-2xl shadow-md hover:shadow-2xl overflow-hidden transition-all duration-300 hover:-translate-y-2 border border-gray-100">
+                     class="group relative bg-white rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100 hover:border-tafelyBlue/30 hover:-translate-y-3">
 
                     <div class="relative h-52 overflow-hidden">
                         <img src="{{ asset($projet['image']) }}" alt="{{ $projet['nom'] }}"
@@ -39,6 +43,7 @@
                             </span>
                         @endif
                     </div>
+                    <div class="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-tafelyBlue via-tafelyElectric to-tafelyBlue scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
                 </div>
             @empty
                 <p class="col-span-full text-center text-gray-400">D'autres projets arrivent bientôt.</p>

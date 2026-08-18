@@ -1,9 +1,13 @@
 <section id="services" class="py-16 sm:py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16" data-aos="fade-up">
-            <span class="text-tafelyRed font-semibold uppercase tracking-wide text-sm">Nos services</span>
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">Une équipe qui vous mène à bon port</h2>
-            <p class="mt-3 text-gray-600 max-w-xl mx-auto">De l'idée à la mise en ligne, nous concevons des solutions numériques fiables et modernes.</p>
+            <span class="kicker text-tafelyRed justify-center">Nos services</span>
+            <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mt-4 tracking-tight">
+                Une équipe qui vous mène <span class="text-tafelyBlue">à bon port</span>
+            </h2>
+            <p class="mt-4 text-gray-500 max-w-xl mx-auto text-lg">
+                De l'idée à la mise en ligne, nous concevons des solutions numériques fiables et modernes.
+            </p>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

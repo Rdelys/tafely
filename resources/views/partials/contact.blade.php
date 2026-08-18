@@ -6,7 +6,11 @@
     <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-10" data-aos="fade-up">
             <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-3">Prêt à lancer votre projet ?</h2>
-            <p class="text-white/90">Écrivez-nous à <strong>contact@tafely-gr.com</strong>, nous vous répondons rapidement.</p>
+            <p class="text-white/90">
+                Écrivez-nous à <strong>contact@tafely-gr.com</strong>, ou
+                <button onclick="openTafelyBot()" class="underline underline-offset-4 font-semibold hover:text-tafelySand transition">discutez avec notre bot</button>
+                pour un devis et un prix immédiat.
+            </p>
         </div>
 
         @if(session('success'))
