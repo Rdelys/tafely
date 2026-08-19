@@ -13,7 +13,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="@yield('title', 'Tafely.GR - Agence de développement numérique')">
     <meta property="og:description" content="@yield('description', 'Sites web, plateformes et solutions numériques sur mesure.')">
-    <meta property="og:image" content="{{ asset('og-image.png') }}">
+    <meta property="og:image" content="{{ asset('logo.png') }}">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:locale" content="fr_FR">
     <meta property="og:site_name" content="Tafely.GR">
@@ -22,7 +22,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="@yield('title', 'Tafely.GR')">
     <meta name="twitter:description" content="@yield('description', 'Sites web, plateformes et solutions numériques sur mesure.')">
-    <meta name="twitter:image" content="{{ asset('og-image.png') }}">
+    <meta name="twitter:image" content="{{ asset('logo.png') }}">
 
     {{-- Schema.org : identifie l'agence auprès de Google --}}
     <script type="application/ld+json">
