@@ -3,7 +3,7 @@
         <div class="text-center mb-16" data-aos="fade-up">
             <span class="kicker text-tafelyRed justify-center">Nos services</span>
             <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mt-4 tracking-tight">
-                Une équipe qui vous mène <span class="text-tafelyBlue">à bon port</span>
+                Des solutions numériques <span class="text-tafelyBlue">taillées pour vous</span>
             </h2>
             <p class="mt-4 text-gray-500 max-w-xl mx-auto text-lg">
                 De l'idée à la mise en ligne, nous concevons des solutions numériques fiables et modernes.
