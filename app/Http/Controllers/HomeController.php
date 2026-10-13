@@ -30,6 +30,14 @@ class HomeController extends Controller
                 'lien' => 'https://fdk-fastdatakeys.com/',
             ],
 
+            [
+                'nom' => 'Ny Herin ny Boky',
+                'categorie' => 'E-commerce',
+                'description' => 'Boutique en ligne pour la vente de livres, avec un système de paiement intégré et une interface utilisateur conviviale.',
+                'image' => 'projets/boky.png',
+                'lien' => 'http://boky.tafely-test.online/',
+            ],
+
             // 👉 Pour ajouter un futur projet, copier ce bloc :
             // [
             //     'nom' => 'Nom du projet',
@@ -54,19 +62,19 @@ class HomeController extends Controller
                     'Commandes reçues directement sur votre email',
                     'Design responsive sur tous les écrans',
                 ],
-                'lien' => null,
+                'lien' => 'https://boutiq.tafely-gr.com/',
                 'couleur' => 'blue',
             ],
             [
-                'nom' => 'Tafely Resto',
-                'slogan' => 'La carte digitale de votre restaurant, simple et rapide',
-                'description' => 'Ajoutez vos plats, vos prix et vos photos. Tafely Resto génère automatiquement une carte en ligne élégante, à partager avec vos clients pour qu\'ils commandent en un clic.',
+                'nom' => 'Tafely Korsy',
+                'slogan' => 'Acheter vos documents et video de formation en un clic',
+                'description' => 'Tafely Korsy vous permet de vendre vos documents et vidéos de formation en ligne. Vos clients peuvent acheter et télécharger vos produits numériques directement depuis votre page unique, sans avoir besoin d’un site web complet.',
                 'icone' => 'fa-utensils',
                 'fonctionnalites' => [
-                    'Ajout illimité de plats et menus',
-                    'Carte digitale unique et élégante',
+                    'Vente de documents et vidéos en ligne',
+                    'Téléchargement instantané après paiement',
+                    'Page unique et personnalisée',
                     'Lien de partage instantané',
-                    'Commandes reçues directement sur votre email',
                     'Design responsive sur tous les écrans',
                 ],
                 'lien' => null,
